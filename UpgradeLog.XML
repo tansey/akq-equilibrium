@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NashEquilibriaEvolution">
+</Property><Property Name="Solution File" Value="C:\local_apps\NashEquilibriaEvolution\NashEquilibriaEvolution.sln">
+</Property><Property Name="User Options File" Value="C:\local_apps\NashEquilibriaEvolution\NashEquilibriaEvolution.suo">
+</Property><Property Name="Date" Value="Saturday, March 19, 2011">
+</Property><Property Name="Time" Value="18:57 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NashEquilibriaEvolution.sln" Description="File successfully backed up as C:\local_apps\NashEquilibriaEvolution\Backup\NashEquilibriaEvolution.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NashEquilibriaEvolution.suo" Description="File successfully backed up as C:\local_apps\NashEquilibriaEvolution\Backup\NashEquilibriaEvolution.suo">
+</Event><Event ErrorLevel="0" Project="NashEquilibriaEvolution" Source="NashEquilibriaEvolution\NashEquilibriaEvolution.csproj" Description="Project file successfully backed up as C:\local_apps\NashEquilibriaEvolution\Backup\NashEquilibriaEvolution\NashEquilibriaEvolution.csproj">
+</Event><Event ErrorLevel="0" Project="NashEquilibriaEvolution" Source="NashEquilibriaEvolution\EvolutionEngine.cs" Description="File successfully backed up as C:\local_apps\NashEquilibriaEvolution\Backup\NashEquilibriaEvolution\EvolutionEngine.cs">
+</Event><Event ErrorLevel="0" Project="NashEquilibriaEvolution" Source="NashEquilibriaEvolution\EvoResults.cs" Description="File successfully backed up as C:\local_apps\NashEquilibriaEvolution\Backup\NashEquilibriaEvolution\EvoResults.cs">
+</Event><Event ErrorLevel="0" Project="NashEquilibriaEvolution" Source="NashEquilibriaEvolution\IFitnessFunction.cs" Description="File successfully backed up as C:\local_apps\NashEquilibriaEvolution\Backup\NashEquilibriaEvolution\IFitnessFunction.cs">
+</Event><Event ErrorLevel="0" Project="NashEquilibriaEvolution" Source="NashEquilibriaEvolution\Program.cs" Description="File successfully backed up as C:\local_apps\NashEquilibriaEvolution\Backup\NashEquilibriaEvolution\Program.cs">
+</Event><Event ErrorLevel="0" Project="NashEquilibriaEvolution" Source="NashEquilibriaEvolution\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\local_apps\NashEquilibriaEvolution\Backup\NashEquilibriaEvolution\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="NashEquilibriaEvolution" Source="NashEquilibriaEvolution\ThreeCardPokerFitness.cs" Description="File successfully backed up as C:\local_apps\NashEquilibriaEvolution\Backup\NashEquilibriaEvolution\ThreeCardPokerFitness.cs">
+</Event><Event ErrorLevel="0" Project="NashEquilibriaEvolution" Source="NashEquilibriaEvolution\NashEquilibriaEvolution.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NashEquilibriaEvolution" Source="NashEquilibriaEvolution\NashEquilibriaEvolution.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NashEquilibriaEvolution.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NashEquilibriaEvolution.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NashEquilibriaEvolution" Source="NashEquilibriaEvolution\NashEquilibriaEvolution.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

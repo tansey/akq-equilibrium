@@ -1,0 +1,7 @@
+C:\Documents and Settings\Wesley\My Documents\Visual Studio 2008\Projects\NashEquilibriaEvolution\NashEquilibriaEvolution\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Wesley\My Documents\Visual Studio 2008\Projects\NashEquilibriaEvolution\NashEquilibriaEvolution\bin\Debug\NashEquilibriaEvolution.exe
+C:\Documents and Settings\Wesley\My Documents\Visual Studio 2008\Projects\NashEquilibriaEvolution\NashEquilibriaEvolution\bin\Debug\NashEquilibriaEvolution.pdb
+C:\Documents and Settings\Wesley\My Documents\Visual Studio 2008\Projects\NashEquilibriaEvolution\NashEquilibriaEvolution\obj\Debug\NashEquilibriaEvolution.exe
+C:\Documents and Settings\Wesley\My Documents\Visual Studio 2008\Projects\NashEquilibriaEvolution\NashEquilibriaEvolution\obj\Debug\NashEquilibriaEvolution.pdb
+C:\local_apps\NashEquilibriaEvolution\NashEquilibriaEvolution\obj\Debug\NashEquilibriaEvolution.exe
+C:\local_apps\NashEquilibriaEvolution\NashEquilibriaEvolution\obj\Debug\NashEquilibriaEvolution.pdb
