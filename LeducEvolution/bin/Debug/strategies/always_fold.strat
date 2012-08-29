@@ -1,0 +1,55 @@
+#
+# leduc strategy fullgame_1.strat
+# made on:       Fri Aug 17 14:10:31 2012
+# abstraction:   abstractions/fullgame
+# opponent:      abstractions/fullgame
+# iterations:    100000000
+#
+J:/: 0 1 0
+Q:/: 0 1 0
+K:/: 0 1 0
+J:/cr: 0 0 1
+Q:/cr: 0 0 1
+K:/cr: 0 0 1
+JJ:/cc/: 0 1 0
+JQ:/cc/: 0 1 0
+JK:/cc/: 0 1 0
+QJ:/cc/: 0 1 0
+QQ:/cc/: 0 1 0
+QK:/cc/: 0 1 0
+KJ:/cc/: 0 1 0
+KQ:/cc/: 0 1 0
+KK:/cc/: 0 1 0
+JJ:/cc/cr: 0 0 1
+JQ:/cc/cr: 0 0 1
+JK:/cc/cr: 0 0 1
+QJ:/cc/cr: 0 0 1
+QQ:/cc/cr: 0 0 1
+QK:/cc/cr: 0 0 1
+KJ:/cc/cr: 0 0 1
+KQ:/cc/cr: 0 0 1
+KK:/cc/cr: 0 0 1
+J:/r: 0 0 1
+Q:/r: 0 0 1
+K:/r: 0 0 1
+J:/c: 0 1 0
+Q:/c: 0 1 0
+K:/c: 0 1 0
+JJ:/cc/r: 0 0 1
+JQ:/cc/r: 0 0 1
+JK:/cc/r: 0 0 1
+QJ:/cc/r: 0 0 1
+QQ:/cc/r: 0 0 1
+QK:/cc/r: 0 0 1
+KJ:/cc/r: 0 0 1
+KQ:/cc/r: 0 0 1
+KK:/cc/r: 0 0 1
+JJ:/cc/c: 0 1 0
+JQ:/cc/c: 0 1 0
+JK:/cc/c: 0 1 0
+QJ:/cc/c: 0 1 0
+QQ:/cc/c: 0 1 0
+QK:/cc/c: 0 1 0
+KJ:/cc/c: 0 1 0
+KQ:/cc/c: 0 1 0
+KK:/cc/c: 0 1 0

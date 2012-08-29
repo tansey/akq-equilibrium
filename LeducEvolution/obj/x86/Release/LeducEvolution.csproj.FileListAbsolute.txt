@@ -1,0 +1,9 @@
+C:\local_apps\akq-equilibrium\LeducEvolution\obj\x86\Release\ResolveAssemblyReference.cache
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Release\LeducEvolution.exe
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Release\LeducEvolution.pdb
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Release\NashEquilibriaEvolution.exe
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Release\NashEquilibriaEvolution.pdb
+C:\local_apps\akq-equilibrium\LeducEvolution\obj\x86\Release\LeducEvolution.exe
+C:\local_apps\akq-equilibrium\LeducEvolution\obj\x86\Release\LeducEvolution.pdb
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Release\strategies\fullgame_1.strat
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Release\strategies\fullgame_2.strat

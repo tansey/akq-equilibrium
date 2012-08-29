@@ -1,0 +1,1015 @@
+universe = vanilla
+Initialdir =/u/tansey/akq_nash/
+
+Executable = /lusr/opt/mono-2.10.8/bin/mono
++Group   = "GRAD"
++Project = "AI_ROBOTICS"
++ProjectDescription = "Nash equilibria evolution parameter sweep"
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 1 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 1 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 1 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 1 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 1 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 1 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_1faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 2 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 2 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 2 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 2 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 2 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 2 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_2faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 5 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 5 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 5 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 5 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 5 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 5 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_5faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 10 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 10 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 10 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 10 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 10 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1 10 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1eval_10faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 1 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 1 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 1 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 1 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 1 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 1 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_1faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 2 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 2 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 2 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 2 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 2 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 2 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_2faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 5 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 5 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 5 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 5 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 5 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 5 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_5faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 10 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 10 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 10 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 10 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 10 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10 10 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10eval_10faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 1 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 1 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 1 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 1 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 1 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 1 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_1faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 2 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 2 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 2 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 2 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 2 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 2 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_2faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 5 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 5 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 5 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 5 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 5 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 5 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_5faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 10 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 10 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 10 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 10 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 10 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100 10 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100eval_10faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 1 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 1 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 1 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 1 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 1 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 1 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_1faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 2 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 2 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 2 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 2 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 2 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 2 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_2faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 5 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 5 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 5 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 5 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 5 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 5 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_5faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 10 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 10 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 10 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 10 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 10 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 1000 10 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_1000eval_10faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 1 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 1 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 1 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 1 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 1 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 1 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_1faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 2 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 2 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 2 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 2 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 2 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 2 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_2faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 5 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 5 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 5 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 5 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 5 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 5 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_5faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 10 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 10 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 10 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 10 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 10 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 10000 10 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_10000eval_10faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 1 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 1 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 1 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 1 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 1 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 1 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_1faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 2 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 2 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 2 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 2 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 2 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 2 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_2faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 5 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 5 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 5 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 5 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 5 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 5 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_5faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 10 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 10 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 10 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 10 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 10 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 50000 10 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_50000eval_10faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 1 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 1 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 1 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 1 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 1 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 1 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_1faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 2 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 2 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 2 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 2 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 2 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 2 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_2faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 5 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 5 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 5 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 5 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 5 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 5 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_5faceoffs_parents1000.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents1.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 10 1
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents1.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents1.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents10.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 10 10
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents10.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents10.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents50.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 10 50
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents50.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents50.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents100.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 10 100
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents100.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents100.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents500.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 10 500
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents500.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents500.err
+Queue 1
+
+Log = /u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents1000.log
+Arguments = /u/tansey/akq_nash/NashEquilibriaEvolution.exe 100000 10 1000
+Output=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents1000.out
+Error=/u/tansey/akq_nash/sqloss_ucb_results_100000eval_10faceoffs_parents1000.err
+Queue 1

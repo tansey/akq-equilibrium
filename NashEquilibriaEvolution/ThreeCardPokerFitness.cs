@@ -30,56 +30,143 @@ namespace NashEquilibriaEvolution
     public class ThreeCardPokerFitness : IFitnessFunction
     {
         public int HandsPerEvaluation { get; set; }
+        public int RandomSamplingFaceoffs { get; set; }
+        public EvaluationTypes EvaluationType { get; set; }
         public FitnessTypes Type { get; set; }
+        public EvaluationStrategy EvalStrategy { get; set; }
         private Random random = new Random();
+        private UcbData[] _ucbScores;
         public enum FitnessTypes
         {
             Winnings,
             SquaredLosses,
             BestOpponent
         }
+        public enum EvaluationTypes
+        {
+            Exact,
+            RandomSampling
+        }
+        public enum EvaluationStrategy
+        {
+            RoundRobin,
+            UCB1
+        }
+        class UcbData
+        {
+            public int Trials;
+            public double Points;
+
+            public void Backup(double reward)
+            {
+                Trials++;
+                Points += reward;
+            }
+
+            public double Score(double c, int totalTrials)
+            {
+                return Points / (double)Trials + c * Math.Sqrt(Math.Log(2 * totalTrials) / (double)Trials);
+            }
+        }
         public void Evaluate(Individual[] pop)
         {
             CacheCards();
             for (int i = 0; i < pop.Length; i++)
                 pop[i].Fitness = 0;
-            for (int i = 0; i < pop.Length; i++)
-                for (int j = 0; j < pop.Length; j++)
-                {
-                    double s1, s2;
-                    
-                    //Randomly sample N hands
-                    //Evaluate(pop[i], pop[j], out s1, out s2);
 
-                    //Calculate EV of the two strategies against each other
-                    var g1 = pop[i].Genome;
-                    var g2 = pop[j].Genome;
-                    s1 = CalculateExpectedValue(g1, g2);
-                    s2 = CalculateExpectedValue(g2, g1);
+            switch (EvalStrategy)
+            {
+                case EvaluationStrategy.RoundRobin:
+                    for (int i = 0; i < pop.Length; i++)
+                        for (int j = 0; j < pop.Length; j++)
+                            CompeteIndividuals(pop, i, j);
+                    break;
+                case EvaluationStrategy.UCB1:
+                    _ucbScores = new UcbData[pop.Length];
+                    for (int i = 0; i < _ucbScores.Length; i++)
+                        _ucbScores[i] = new UcbData();
 
-                    switch (Type)
+                    for (int i = 0; i < RandomSamplingFaceoffs; i++)//fair comparison to round robin
                     {
-                        case FitnessTypes.Winnings:
-                            pop[i].Fitness += s1;
-                            pop[j].Fitness += s2;
-                            break;
-                        case FitnessTypes.SquaredLosses:
-                            if (s1 - s2 < 0)
-                                pop[i].Fitness -= (s1 - s2) * (s1 - s2);
-                            if (s2 - s1 < 0)
-                                pop[i].Fitness -= (s2 - s1) * (s2 - s1);
-                            break;
-                        case FitnessTypes.BestOpponent:
-                            if (s1 - s2 < pop[i].Fitness)
-                                pop[i].Fitness = s1 - s2;
-                            if (s2 - s1 < pop[j].Fitness)
-                                pop[j].Fitness = s2 - s1;
-                            break;
-                        default:
-                            break;
-                    }
+                        CacheCards();// TEMP
+                        // sort by score and select top 2 individuals
+                        var best = pop.Select((ind, n) => n)
+                                      .Shuffle(random)
+                                      .OrderByDescending(n => _ucbScores[n].Trials < 100 ? double.MaxValue : _ucbScores[n].Score(0.5, i))
+                                      .Take(2);
+                        int p1 = best.ElementAt(0);
+                        int p2 = best.ElementAt(1);
 
+                        //Console.WriteLine("({0}, {1})\t{0}=({2},{3})\t{1}=({4},{5})", p1, p2, _ucbScores[p1].Trials, _ucbScores[p1].Score(0.5, i), _ucbScores[p2].Trials, _ucbScores[p2].Score(0.5, i));
+
+                        CompeteIndividuals(pop, best.ElementAt(0), best.ElementAt(1));
+                    }
+                    for (int i = 0; i < pop.Length; i++)
+                        pop[i].Fitness = _ucbScores[i].Score(0, RandomSamplingFaceoffs);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void CompeteIndividuals(Individual[] pop, int i, int j)
+        {
+            double s1, s2;
+
+            if (EvaluationType == ThreeCardPokerFitness.EvaluationTypes.RandomSampling)
+                //Randomly sample N hands
+                Evaluate(pop[i], pop[j], out s1, out s2);
+            else
+            {
+                //Calculate EV of the two strategies against each other
+                var g1 = pop[i].Genome;
+                var g2 = pop[j].Genome;
+                s1 = CalculateExpectedValue(g1, g2);
+                s2 = CalculateExpectedValue(g2, g1);
+            }
+
+            switch (Type)
+            {
+                case FitnessTypes.Winnings:
+                    pop[i].Fitness += s1;
+                    pop[j].Fitness += s2;
+                    break;
+                case FitnessTypes.SquaredLosses:
+                    if (s1 - s2 < 0)
+                        pop[i].Fitness -= Math.Min(0,(s1 - s2)) * (s1 - s2);
+                    if (s2 - s1 < 0)
+                        pop[i].Fitness -= Math.Min(0,(s2 - s1)) * (s2 - s1);
+                    break;
+                case FitnessTypes.BestOpponent:
+                    if (s1 - s2 < pop[i].Fitness)
+                        pop[i].Fitness = s1 - s2;
+                    if (s2 - s1 < pop[j].Fitness)
+                        pop[j].Fitness = s2 - s1;
+                    break;
+                default:
+                    break;
+            }
+
+
+            if (EvalStrategy == EvaluationStrategy.UCB1)
+            {
+                switch (Type)
+                {
+                    case FitnessTypes.Winnings:
+                        _ucbScores[i].Backup(s1);
+                        _ucbScores[j].Backup(s2);
+                        break;
+                    case FitnessTypes.SquaredLosses:
+                        _ucbScores[i].Backup(-1 * Math.Min(0, (s1 - s2)) * (s1 - s2));
+                        _ucbScores[j].Backup(-1 * Math.Min(0, (s2 - s1)) * (s2 - s1));
+                        break;
+                    case FitnessTypes.BestOpponent:
+                        throw new Exception("Not sure how to do this");
+                        
+                    default:
+                        break;
                 }
+            }
         }
 
         private static double CalculateExpectedValue(double[] g1, double[] g2)
@@ -132,13 +219,16 @@ namespace NashEquilibriaEvolution
                 double[] probs1 = first.Genome;
                 double[] probs2 = second.Genome;
                 
-                Evaluate(i, probs1, probs2, out s1, out s2);
+                if(i % 2 == 0)
+                    Evaluate(i, probs1, probs2, out s1, out s2);
+                else
+                    Evaluate(i, probs2, probs1, out s2, out s1);
 
-                //IncrementScore(first, score1);
-                //IncrementScore(second, score2);
+                total1 += s1;
+                total2 += s2;
 
-                total1 += s1 < 0 ? s1 : 0;
-                total2 += s2 < 0 ? s2 : 0;
+                //total1 += Math.Min(0, s1);
+                //total2 += Math.Min(0, s2);
             }
             score1 = total1;
             score2 = total2;
@@ -152,13 +242,8 @@ namespace NashEquilibriaEvolution
             double prob1 = probs1[c1];
             double prob2 = probs2[c2 + 3];
 
-            bool bet1 = betFirst[i];
-            bool bet2 = betSecond[i];
-
-            //bool bet1 = prob1 >= random.NextDouble();
-            //bool bet2 = prob2 >= random.NextDouble();
-
-            double likelihood = (bet1 ? prob1 : (1 - prob1)) * (bet1 ? bet2 ? prob2 : (1 - prob2) : 1);
+            bool bet1 = prob1 >= random.NextDouble();
+            bool bet2 = prob2 >= random.NextDouble();
 
             double s1, s2;
             Score(c1, c2, bet1, bet2, out s1, out s2);

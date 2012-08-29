@@ -1,0 +1,5 @@
+C:\local_apps\akq-equilibrium\NashEquilibriaEvolution\bin\Release\NashEquilibriaEvolution.exe
+C:\local_apps\akq-equilibrium\NashEquilibriaEvolution\bin\Release\NashEquilibriaEvolution.pdb
+C:\local_apps\akq-equilibrium\NashEquilibriaEvolution\obj\Release\ResolveAssemblyReference.cache
+C:\local_apps\akq-equilibrium\NashEquilibriaEvolution\obj\Release\NashEquilibriaEvolution.exe
+C:\local_apps\akq-equilibrium\NashEquilibriaEvolution\obj\Release\NashEquilibriaEvolution.pdb

@@ -1,0 +1,11 @@
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Debug\strategies\fullgame_1.strat
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Debug\strategies\fullgame_2.strat
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Debug\LeducEvolution.exe
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Debug\LeducEvolution.pdb
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Debug\NashEquilibriaEvolution.exe
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Debug\NashEquilibriaEvolution.pdb
+C:\local_apps\akq-equilibrium\LeducEvolution\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\local_apps\akq-equilibrium\LeducEvolution\obj\x86\Debug\LeducEvolution.exe
+C:\local_apps\akq-equilibrium\LeducEvolution\obj\x86\Debug\LeducEvolution.pdb
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Debug\strategies\always_fold.strat
+C:\local_apps\akq-equilibrium\LeducEvolution\bin\Debug\strategies\always_raise.strat
