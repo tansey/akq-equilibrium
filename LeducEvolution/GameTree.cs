@@ -344,16 +344,17 @@ namespace LeducEvolution
             else // calling a flop bet and seeing a showdown
             {
                 callNode.terminal = true;
+                double finalPot = (bets.Max() == 0 ? pot : pot + _betSize[1]) / 2.0;
                 if (callNode.hole1 == callNode.hole2) // draw
                     callNode.payoff = 0;
                 else if (callNode.hole1 == callNode.board) // p1 pair
-                    callNode.payoff = (pot + _betSize[1]) / 2.0;
+                    callNode.payoff = finalPot;
                 else if (callNode.hole2 == callNode.board) // p2 pair
-                    callNode.payoff = (pot + _betSize[1]) / -2.0;
+                    callNode.payoff = -finalPot;
                 else if(callNode.hole1 > callNode.hole2) // p1 high card with no pairs on board
-                    callNode.payoff = (pot + _betSize[1]) / 2.0;
+                    callNode.payoff = finalPot;
                 else // p2 high card with no pairs on board
-                    callNode.payoff = (pot + _betSize[1]) / -2.0;
+                    callNode.payoff = -finalPot;
             }
             SetNodeIndex(callNode, root, indexes);
             children.Add(callNode);

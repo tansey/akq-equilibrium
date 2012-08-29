@@ -12,8 +12,8 @@ namespace LeducEvolution
 
         static void Main(string[] args)
         {
-            Diff();
-            return;
+            //Diff();
+            //return;
             GameTree gt = new GameTree();
 
             double[] s1 = LeducStrategy.LoadFromFile(gt, "strategies/fullgame_1.strat", "strategies/fullgame_2.strat");
@@ -34,7 +34,8 @@ namespace LeducEvolution
         static void Diff()
         {
             string[] opencfr = ReadLines("strategies/opencfr.log");
-            var target = new List<string[]>(ReadLines("strategies/target.log").Select(s => s.Split()));
+            //var target = new List<string[]>(ReadLines("strategies/target.log").Select(s => s.Split()));
+            var target = new List<string>(ReadLines("strategies/target.log"));
             int found = 0;
             int skipped = 0;
             foreach (var line in opencfr)
@@ -47,12 +48,13 @@ namespace LeducEvolution
                 string sequence = tokens[idx - 2];
                 string payoff = tokens.Last();
 
-                string[] targetLine = target.FirstOrDefault(s => s[1] == hole1 && 
-                                                          s[3] == hole2 && 
-                                                          s[6] == sequence && 
-                                                          (idx == 6 || s[5] == tokens[5]) && //board 
-                                                          s[8] == prob
-                                                          );
+                //string[] targetLine = target.FirstOrDefault(s => s[1] == hole1 && 
+                //                                          s[3] == hole2 && 
+                //                                          s[6] == sequence && 
+                //                                          (idx == 6 || s[5] == tokens[5]) && //board 
+                //                                          s[8] == prob
+                //                                          );
+                string targetLine = target.FirstOrDefault(s => s == line);
                 if (targetLine == null)
                 {
                     Console.WriteLine(line);
@@ -74,7 +76,9 @@ namespace LeducEvolution
 
             Console.WriteLine();
             Console.WriteLine("Gathered probabilities");
-            var gathered = target.Where(s => !s[0].StartsWith("#"))
+            var gathered = target
+                  .Where(s => !s.StartsWith("#"))
+                  .Select(s => s.Split())
                   .GroupBy(s => s[1] + s[3] + s[6])
                   .Where(g => g.Sum(s => double.Parse(s[8])) > double.Epsilon)
                   .Select(g => string.Format("P1: {0} P2: {1} {2} Prob: {3:N6} Payoff: {4}",
